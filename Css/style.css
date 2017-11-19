@@ -1,0 +1,430 @@
+/* All */
+*{
+	font-family: "Palatino Linotype";
+}
+
+
+/* Body of a page */
+body {
+	background-image: url("../Images/background.jpg");
+	color: #FFFFFF;
+}
+
+
+/* Navigation at the top */
+nav ul {
+	background-image: url("../Images/title.jpg");
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0% -.6% 0% -.6%;
+}
+
+nav li {
+	font-size: 1.2em;
+	line-height: 40px;
+	text-align: left;
+	background-image: url("../Images/title.jpg");
+}
+
+nav a {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	padding-left: 15px;
+}
+
+nav a:hover {
+	background-color: #404040;
+}
+
+nav a.activePage {
+	background-color: #A0A0A0;
+	color: #404040;
+	cursor: default;
+}
+
+nav li li {
+	font-size: .8em;
+}
+
+nav li {
+	width: 16.65%;
+	border-bottom: none;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.4em;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+nav a {
+	border-bottom: none;
+}
+
+nav > ul > li {
+	text-align: center;
+}
+
+nav > ul > li > a {
+	padding-left: 0;
+}
+
+nav li ul {
+	position: absolute;
+	display: none;
+	width: 16.65%;
+	margin: 0;
+}
+
+nav li:hover ul {
+	display: block;
+}
+
+nav li ul li {
+	display: block;
+	width: 100%;
+}
+
+
+/* Main page layout and design */
+#main aside {
+	float: right;
+	height: auto;
+	width: 32.2%;
+	margin: 2% 0% 0% 0%;
+	border: 20%;
+}
+
+#main aside section {
+	height: auto;
+	color: #FFFFFF;
+	margin: 1% 0% 1% 0%;
+	border-width: 1.5%;
+	border-radius: 8%;
+	background-image: url("../Images/aside.jpg");
+	padding: 2%;
+}
+
+#main aside h2 {
+	color: #FFFFFF;
+	border-style: solid;
+	border-radius: 10%;
+	border-width: 15%;
+	border-color: #000066;
+}
+
+#main aside p {
+	color: #FFFFFF;
+	margin: 0% 0% 0% 3%;
+}
+
+#main aside h3 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#main .buttonHolder {
+	text-align: center;
+}
+
+#news section {
+	float: left;
+	height: auto;
+	width: 66.8%;
+	margin: 1% 0% 1% 0%;
+	border-right-style: solid;
+	border-color: #C0C0C0;
+	border-width: 2%;
+	background-image: url("../Images/news.jpg");
+}
+
+#news section h2 {
+	color: #FFFFFF;
+}
+
+#news p {
+	color: #808080;
+	font-size: 100%;
+}
+
+#news img, iframe {
+	float: left;
+	width: 30%;
+	height: 20%;
+	margin: 2% 0% 0% 0%;
+}
+
+#news img:hover {
+	display: inline-block;
+	position: relative;
+	width: 60%;
+	height: 50%;
+	z-index: 0;
+}
+
+
+/* Links */
+li {
+	color: #FFFFFF;
+}
+
+a:link ,a:active {
+	color: #C0C0C0;
+}
+
+a:visited {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: yellow;
+}
+
+
+/* Any other layout tags useful in all pages */
+footer {
+	display: block;
+	float: right;
+	text-align: center;
+	width: 100%;
+	margin: 0% -.08% 0% 0%;
+	background-image: url("../Images/title.jpg");
+	font-weight: bold;
+}
+
+hr {
+	color: #C0C0C0;
+}
+
+i {
+	font: bold italic;
+	color: #FF0000;
+
+}
+
+p {
+	color: #FFFFFF;
+	font-size: 90%;
+	margin: 0% 0% 0% 5%;
+	font-weight: medium;
+}
+
+h3 {
+	color: #C0C0C0;
+	font-weight: bold;
+}
+
+
+/* Design for console pages */
+.console h2 {
+	color: #FFFFFF;
+	font-weight: heavy;
+	font-style: italic;
+	text-align: center;
+}
+
+.console section {
+	float: left;
+	height: auto;
+	width: 70%;
+	margin: 1% 0% 1% 0%;
+	border-width: 2%;
+	border-radius: 5%;
+	background-image: url("../Images/aside.jpg");
+	padding: 1%;
+}
+
+.console .down section {
+	width: 30%;
+	height: auto;
+	border-width: 2%;
+	border-radius: 5%;
+	padding: 1%;
+	margin: 2% 2% 1% 2%;
+	background-image: url("../Images/aside.jpg");
+}
+
+.console aside {
+	float: right;
+	height: auto;
+	width: 27%;
+}
+
+.console aside section {
+	width: 100%;
+	height: auto;
+	border-width: 2%;
+	border-radius: 5%;
+	padding: 1%;
+	margin: 3% 1% 1% -1%;
+	background-image: url("../Images/aside.jpg");
+}
+
+.console img {
+	width: 100%;
+}
+
+.console .main iframe {
+	width: 100%;
+	height: 400px;
+}
+
+.console iframe {
+	width: 100%;
+	height: auto;
+}
+
+
+/* PC, Mobile, VR, Events pages layout and design */
+.other section {
+	float: left;
+	height: auto;
+	width: 47%;
+	margin: 1% 0% 1% 0%;
+	border-width: 2%;
+	border-radius: 5%;
+	background-image: url("../Images/aside.jpg");
+	padding: 1%;
+}
+
+.other aside {
+	float: right;
+	height: auto;
+	width: 47%;
+	border-width: 2%;
+	border-radius: 5%;
+	padding: 1%;
+}
+
+.other aside section {
+	width: 100%;
+	height: auto;
+	margin: 1% 1% 0% 0%;
+}
+
+.other h2 {
+	color: #FFFFFF ;
+	font-weight: heavy;
+	font-style: italic;
+	text-align: center;
+}
+
+.other iframe {
+	width: 45%;
+	height: auto;
+	margin: 1% 1% 1% 1%;
+}
+
+.other img {
+	width: 90%;
+	height: 200px;
+}
+
+.vr .other {
+	clear: both;
+}
+
+.other img {
+	margin: 1% 1% 1% 5%;
+}
+
+
+/* Contact page */
+.contact p i {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.contact fieldset {
+	background-image: url("../Images/aside.jpg");
+	border-width: 2%;
+	border-radius: 5%;
+}
+
+.buttonHolder {
+	text-align: right;
+}
+
+
+/* Table layout and design */
+table {
+	border-radius: 5px;
+	border-width: 5px;
+	background-color: #003366;
+	color: #FFFFFF;
+	width: 98%;
+	margin: 1%;
+}
+
+table i {
+	color: #000000;
+}
+
+thead tr th {
+	text-align: center;
+	border-radius: 5px;
+	border-width: 5px;
+}
+
+td {
+	border-radius: 5px;
+	border-width: 5px;
+	border: solid;
+	border-color: #000000;
+	vertical-align: text-top;
+}
+
+th {
+	border-radius: 5px;
+	border-width: 5px;
+	background-color: #000066;
+	color: #FFFFFF;
+}
+
+
+/* Header design and layout */
+header {
+	color: #000000;
+	text-align: center;
+	padding: auto; 
+	border-top-style: solid #000000;
+	background-image: url("../Images/title.jpg");
+	width: auto;
+	height: auto;
+	margin: -1.6% -.6% -1.6% -.6%;
+	font: bold;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
